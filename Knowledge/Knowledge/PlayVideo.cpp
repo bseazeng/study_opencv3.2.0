@@ -1,7 +1,7 @@
 #include <opencv2\opencv.hpp>  
 using namespace cv;
 
-int PlayVideo()
+int PlayVideo(int argc, char *argv[])
 {
 	Mat frame; //当前帧
 	Mat fgMaskMOG2; //通过MOG2方法得到的掩码图像fgmask

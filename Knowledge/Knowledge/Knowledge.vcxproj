@@ -34,7 +34,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v120_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -75,9 +75,10 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <ExecutablePath>D:\opencv\build\x64\vc14\bin;D:\opencv\build\bin;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>D:\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>..\..\opencv\build\x64\vc14\bin;..\..\opencv\build\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>..\..\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\opencv\build\x64\vc14\bin</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -112,6 +113,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -157,8 +159,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlurImage.cpp" />
+    <ClCompile Include="Canny.cpp" />
+    <ClCompile Include="ImageErode.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PlayVideo.cpp" />
+    <ClCompile Include="ShowImage.cpp" />
     <ClCompile Include="UseCamera.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -24,6 +24,18 @@
     <ClCompile Include="PlayVideo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ShowImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageErode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Canny.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Knowledge.h">

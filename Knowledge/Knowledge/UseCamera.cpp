@@ -1,9 +1,15 @@
 #include <opencv2\opencv.hpp>  
 using namespace cv;
-void UseCamera()
+
+int UseCamera(int argc, char *argv[])
 {
 	//【1】从摄像头读入视频
 	VideoCapture capture(0);
+	if (!capture.isOpened())
+	{
+		std::cout << "open camera failed" << std::endl;
+		return -1;
+	}
 
 	//【2】循环显示每一帧
 	while (1)
@@ -13,4 +19,6 @@ void UseCamera()
 		imshow("读取视频", frame);  //显示当前帧
 		waitKey(30);  //延时30ms
 	}
+
+	return 0;
 }
