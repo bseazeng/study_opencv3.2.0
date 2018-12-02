@@ -163,8 +163,13 @@
     <ClCompile Include="Canny.cpp" />
     <ClCompile Include="ImageErode.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OpticalFlow.cpp" />
     <ClCompile Include="PlayVideo.cpp" />
     <ClCompile Include="ShowImage.cpp" />
+    <ClCompile Include="TestLK.cpp" />
+    <ClCompile Include="TestObjectDetection.cpp" />
+    <ClCompile Include="TestShiftCamera.cpp" />
+    <ClCompile Include="TestSVM.cpp" />
     <ClCompile Include="UseCamera.cpp" />
   </ItemGroup>
   <ItemGroup>

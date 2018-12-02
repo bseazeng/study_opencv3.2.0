@@ -1,21 +1,5 @@
-﻿生成启动时间为 2018/12/1 星期六 22:21:55。
-     1>项目“F:\git\study_opencv3.2.0\Knowledge\Knowledge\Knowledge.vcxproj”在节点 2 上(Build 个目标)。
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
-         main.cpp
-       Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\opencv\build\x64\vc14\bin\Knowledge.exe" /INCREMENTAL:NO /NOLOGO opencv_world320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\opencv\build\x64\vc14\bin\Knowledge.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\opencv\build\x64\vc14\bin\Knowledge.lib" /MACHINE:X64 x64\Release\BlurImage.obj
-         x64\Release\ImageErode.obj
-         x64\Release\main.obj
-         x64\Release\PlayVideo.obj
-         x64\Release\ShowImage.obj
-         x64\Release\UseCamera.obj
-         正在生成代码
-         已完成代码的生成
-         Knowledge.vcxproj -> F:\git\study_opencv3.2.0\Knowledge\Knowledge\..\..\opencv\build\x64\vc14\bin\Knowledge.exe
-     1>已完成生成项目“F:\git\study_opencv3.2.0\Knowledge\Knowledge\Knowledge.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2018/12/2 星期日 11:23:00。
 
 生成成功。
 
-已用时间 00:00:04.85
+已用时间 00:00:00.03

@@ -20,6 +20,12 @@ KL_CMD_ST g_cmds[] =
 	{ "showimage", ShowImage },
 	{ "erodeimage", ImageErode },
 	{ "blurimage", BlurImage },
+	{ "testcanny", TestCanny },
+	{ "shiftcamera", TestShiftCamera},
+	{ "opflow", TestOpticalFlow },
+	{ "testLK", TestLK },
+	{ "testOD", TestObjectDetection },
+	{ "testSVM", TestSVM },
 	{ "help",help }
 };
 int g_cmd_size = sizeof(g_cmds) / sizeof(g_cmds[0]);

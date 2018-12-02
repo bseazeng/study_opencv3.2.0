@@ -1,8 +1,16 @@
 f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\vc120.pdb
-f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\hello.obj
 f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\usecamera.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\showimage.obj
 f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\playvideo.obj
 f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\main.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\imageerode.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\canny.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\blurimage.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\testshiftcamera.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\opticalflow.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\testlk.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\testobjectdetection.obj
+f:\git\study_opencv3.2.0\knowledge\knowledge\x64\release\testsvm.obj
 f:\git\study_opencv3.2.0\opencv\build\x64\vc14\bin\knowledge.exe
 f:\git\study_opencv3.2.0\opencv\build\x64\vc14\bin\knowledge.pdb
 f:\git\study_opencv3.2.0\knowledge\knowledge\..\..\opencv\build\x64\vc14\bin\knowledge.exe

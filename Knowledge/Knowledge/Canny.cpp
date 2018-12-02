@@ -5,7 +5,11 @@ using namespace cv;
 int TestCanny(int argc, char *argv[])
 {
 	//【0】载入原始图  
-	Mat srcImage = imread("1.jpg");  //工程目录下应该有一张名为1.jpg的素材图
+	Mat srcImage = imread("..\\..\\opencv\\sources\\samples\\data\\aero1.jpg");  //工程目录下应该有一张名为1.jpg的素材图
+	if (srcImage.empty())
+	{
+		return -1;
+	}
 	imshow("【原始图】Canny边缘检测", srcImage); 	//显示原始图 
 	Mat dstImage, edge, grayImage;	//参数定义
 
